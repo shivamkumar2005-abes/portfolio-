@@ -2,90 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shivam Kumar | Portfolio</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav>
+    <h2> Shivam kumar</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<section class="hero">
+    <div class="hero-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="profile">
+        <h1>Hi, I'm Shivam kumar👋</h1>
+        <p>B.Tech 2nd Year Student | ABES Engineering College , Ghaziabad</p>
+        <span>Aspiring Software Developer & Hackathon Enthusiast</span>
+    </div>
+</section>
 
-    <!-- Navbar -->
-    <nav>
-        <h2>Shivam Kumar</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+        I am a  B.Tech second-year student at ABES Engineering College with
+        a strong interest in software development and problem-solving.
+        I have hands-on experience with basic DSA concepts, C++ programming,
+        and front-end web development. I love collaborating in teams
+        and learning through hackathons.
+    </p>
+</section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Hello, I'm Shivam 👋</h1>
-        <p>B.Tech 2nd Year Student | ABES Engineering College</p>
-        <p class="tagline">
-            Aspiring Software Developer | Hackathon Enthusiast
-        </p>
-    </section>
 
-    <!-- About -->
-    <section id="about" class="card">
-        <h2>About Me</h2>
-        <p>
-            I am a B.Tech second-year student at ABES Engineering College with a
-            keen interest in software development and problem solving.
-            I have basic knowledge of Data Structures & Algorithms, Web Development,
-            and Python, and I am constantly working to improve my skills by building
-            projects and participating in hackathons.
-        </p>
-    </section>
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div><i class="fa-solid fa-c"></i><p>C++</p></div>
+        <div><i class="fab fa-html5"></i><p>HTML</p></div>
+        <div><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div><i class="fab fa-js"></i><p>JavaScript</p></div>
+        <div><i class="fas fa-code"></i><p>DSA Basics</p></div>
+        <div><i class="fab fa-github"></i><p>Git & GitHub</p></div>
+    </div>
+</section>
 
-    <!-- Skills -->
-    <section id="skills" class="card">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <span>Python</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>DSA (Basics)</span>
-            <span>Git & GitHub</span>
-        </div>
-    </section>
+<section id="projects" class="card">
+    <h2>Projects</h2>
 
-    <!-- Projects -->
-    <section id="projects" class="card">
-        <h2>Projects</h2>
-        <div class="project">
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
             <h3>Portfolio Website</h3>
-            <p>
-                A clean and responsive personal portfolio website built using
-                HTML, CSS, and JavaScript.
-            </p>
+            <p>Personal responsive portfolio built using HTML, CSS & JavaScript.</p>
         </div>
-        <div class="project">
+
+        <div class="project-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png">
             <h3>Python Mini Projects</h3>
-            <p>
-                Developed small Python projects like calculator, number guessing game,
-                and to-do list to strengthen programming fundamentals.
-            </p>
+            <p>Calculator, number guessing game, and to-do list applications.</p>
         </div>
-    </section>
 
-    <!-- Contact -->
-    <section id="contact" class="card">
-        <h2>Contact</h2>
-        <p>Email: shivamkumar@email.com</p>
-        <p>GitHub: github.com/yourusername</p>
-        <p>LinkedIn: linkedin.com/in/yourusername</p>
-        <button onclick="showMessage()">Say Hello</button>
-    </section>
+        <div class="project-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+            <h3>DSA Practice</h3>
+            <p>Practicing arrays, strings, recursion, and sorting problems.</p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="card contact">
+    <h2>Contact Me</h2>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Shivam Kumar • Built with ❤️</p>
-    </footer>
+    <p><i class="fas fa-envelope"></i> shivamprajapati1704@gmail.com</p>
+    <p><i class="fab fa-github"></i> https://github.com/shivamkumar2005-abes</p>
+    <p><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/shivam-kumar-abes/</p>
 
-    <script src="script.js"></script>
+    <button onclick="showMessage()">Let's Connect</button>
+</section>
+<footer>
+    <p>© 2026 Shivam Kumar • Built with ❤️ for Hackathons</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
